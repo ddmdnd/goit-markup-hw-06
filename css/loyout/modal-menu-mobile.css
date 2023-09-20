@@ -105,7 +105,17 @@
   justify-content: center;
   display: flex;
 }
-.modal-social-link-item:hover,
+
+/* if you need change color at the hover, focus you can use function below  */
+
+.link-ocean {
+  color: #404bbf;
+}
+
+.link-iris {
+  color: #4d5ae5;
+}
+/* .modal-social-link-item:hover,
 .modal-social-link-item:focus {
   background-color: #31d0aa;
-}
+} */
