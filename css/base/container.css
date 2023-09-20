@@ -2,7 +2,20 @@
   max-width: 100%vp;
   margin-left: auto;
   margin-right: auto;
+  width: 320px;
+}
+/* @media screen and (min-width: 320px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+  }
+} */
+/* .container {
+  max-width: 100%vp;
+  margin-left: auto;
+  margin-right: auto;
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */

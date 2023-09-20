@@ -1,12 +1,10 @@
-.portfolio-section {
+/* .portfolio-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .porfolio-card {
   background-color: var(--white);
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
   width: 360px;
 }
 .porfolio-card {
@@ -32,7 +30,7 @@
   color: var(--slate);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11; 
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
@@ -43,7 +41,7 @@
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2; 
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
@@ -83,7 +81,7 @@
   color: var(--cloud, #f4f4fd);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
   background-color: var(--iris);
   transform: translateY(100%);
@@ -98,6 +96,6 @@
 .portfolio-section-list-services {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
-}
+} */

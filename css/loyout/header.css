@@ -1,3 +1,55 @@
+.nav-page {
+  display: none;
+}
+.address-contacts {
+  display: none;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.main-logotype {
+  color: var(--iris);
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-top: 17.5px;
+  padding-bottom: 17.5px;
+  margin-right: 149px;
+  width: 115px;
+}
+.main-logotype-part-two {
+  color: var(--navyblue);
+}
+.header-container {
+  display: flex;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  border-bottom: 1px solid #e7e9fc;
+}
+.button-nav-mobile {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px;
+  padding: 0px;
+  background-color: transparent;
+}
+
+/* 
+
 .page-header {
   display: flex;
   border-bottom: 1px solid #e7e9fc;
@@ -23,7 +75,7 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17; 
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-top: 25.5px;
@@ -38,7 +90,7 @@
   color: var(--navyblue);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
@@ -64,9 +116,6 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .nav-page-link:hover,
-.nav-page-link:focus {
-} */
 .class-after::after {
   content: "";
   width: 100%;
@@ -74,7 +123,6 @@
   border: 1px solid var(--ocean);
   border-radius: 2px;
   background-color: #404bbf;
-  /* background-color: var(--ocean); */
   display: block;
   margin-top: 20px;
   position: absolute;
@@ -102,7 +150,7 @@
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
