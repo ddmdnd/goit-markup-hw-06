@@ -1,3 +1,83 @@
+.subscribe-conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 96px;
+}
+.subscribe-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* margin-left: 122px;
+  margin-right: 123px; */
+}
+.form-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.input-email {
+  width: 288px;
+  height: 40px;
+  border: 1px solid #fff;
+  opacity: 0.3;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  outline: transparent;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  /* padding-right: 252px; */
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.input-email::placeholder {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04px;
+}
+.button-subscribe {
+  width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  background: #4d5ae5;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  min-width: 165px;
+}
+
+.subcribe-icon {
+  margin-left: 16px;
+}
+/* ========= tablet ============ */
 /* .subscribe-conteiner {
   margin-left: 80px;
 }
