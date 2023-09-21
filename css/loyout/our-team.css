@@ -1,3 +1,99 @@
+.team-section {
+  padding: 96px 0;
+  background-color: var(--cloud);
+}
+.team-section-container {
+  display: flex;
+  flex-direction: column;
+}
+.team-section-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-section-list {
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 72px; */
+  /* padding-bottom: 120px; */
+  margin-left: auto;
+  margin-right: auto;
+  gap: 72px;
+}
+
+/* not understand  */
+
+.team-section-list-item {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--white, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.card-content-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.social-link-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--iris);
+  background-color: var(--iris);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-link-list-item:hover,
+.social-link-list-item:focus {
+  background-color: #404bbf;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.team-section-list-title {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.team-section-position {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.card-content-list-item-icon {
+  fill: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==========     tablet   =========== */
+
 /* .team-section {
   padding: 120px 0;
   background-color: var(--cloud);
