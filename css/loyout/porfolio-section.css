@@ -8,6 +8,8 @@
   flex-direction: column;
   margin-left: 16px;
   margin-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .portfolio-section-title {
   color: var(--slate);
@@ -84,6 +86,12 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+@media screen and (max-width: 767px) {
+  .porfolio-section-list-payment-text-popup {
+    display: none;
+  }
+}
+
 /* =========== tablet ============= */
 
 /* .portfolio-section {
