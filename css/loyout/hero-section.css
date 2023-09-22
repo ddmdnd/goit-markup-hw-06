@@ -78,6 +78,51 @@
 
 /* =================== tablet ===================== */
 
+@media screen and (min-width: 768px) {
+  .hero-container {
+    width: 768px;
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+  }
+  .hero-section {
+    /* padding: 112px 0; */
+    height: 600px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/hero/image-tablet/Dark-bg@1x.jpg);
+
+    height: 436px;
+    max-width: 768px;
+    background-size: cover;
+  }
+  .hero-section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    height: 120px;
+    margin-top: 112px;
+    padding: 0px;
+  }
+}
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1157px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1157px) {
+  .hero-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/hero/image-tablet/Dark-bg@2x.jpg);
+  }
+}
+/* ================ desktop ============== */
+
 /* .hero-container {
   width: 1440px;
   height: 600px;
