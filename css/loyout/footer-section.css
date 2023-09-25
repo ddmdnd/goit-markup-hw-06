@@ -127,6 +127,46 @@
   .skill-section {
     padding: 120px 0;
   }
+  .main-footer {
+    padding: 0;
+  }
+  .footer-container {
+    align-items: baseline;
+
+    padding-top: 101.5px;
+    flex-wrap: nowrap;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footer-container-logo {
+    margin-right: 120px;
+    margin-left: 0px;
+  }
+  .footer-logotype {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .footer-text {
+    max-width: 264px;
+    width: 264px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .footer-container {
+    align-items: baseline;
+    flex-direction: row;
+  }
+
+  .footer-container-social-list {
+    margin-top: 16px;
+    margin: 0px;
+  }
+
+  .footer-social-link-item:hover,
+  .footer-social-link-item:focus {
+    background-color: #31d0aa;
+  }
+}
 /* ======= desktop ============ */
 /* .main-footer {
   padding: 100px 0;

@@ -78,6 +78,7 @@
   margin-left: 16px;
 }
 /* ========= tablet ============ */
+
 @media screen and (min-width: 768px) {
   .subscribe-conteiner {
     margin-left: 108px;
@@ -91,6 +92,14 @@
   }
   .input-email {
     width: 264px;
+  }
+}
+/* ========= tablet ============ */
+
+/* ========= desktop ========= */
+@media screen and (min-width: 1158px) {
+  .subscribe-conteiner {
+    margin-left: 80px;
   }
 }
 /* ========= desktop ========= */
