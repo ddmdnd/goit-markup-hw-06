@@ -106,6 +106,19 @@
     margin-bottom: 24px;
   } */
 }
+/* ==========     tablet   =========== */
+
+/* ======= desktop =========== */
+@media screen and (min-width: 1158px) {
+  .team-section {
+    padding: 120px 0;
+  }
+  .team-section-list {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+  }
+}
 /* ======= desktop =========== */
 /* .team-section {
   padding: 120px 0;
