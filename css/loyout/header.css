@@ -97,12 +97,10 @@
     letter-spacing: 0.02em;
     display: flex;
     gap: 40px;
-    /* padding: 24px 0; */
   }
   .nav-page-link {
     color: #2e2f42;
     text-decoration: none;
-    /* padding: 24px 0; */
     margin-bottom: 0;
     position: relative;
     transition-property: color;
@@ -167,6 +165,36 @@
 }
 
 /* ========= tablet ========= */
+
+/* ========== desktop ===============*/
+@media screen and (min-width: 1158px) {
+  .nav-page {
+    padding: 24px 0;
+  }
+  .nav-page-link {
+    padding: 24px 0;
+    margin-bottom: 0;
+  }
+  .main-logotype {
+    width: 71px;
+    margin-right: 76px;
+  }
+  .address-contacts {
+    padding-left: 332px;
+  }
+  .address-list {
+    gap: 40px;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .address-list-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+}
+
 /* ========== desktop ===============*/
 
 /* @media screen and (min-width: 768px) {
