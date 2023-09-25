@@ -81,8 +81,6 @@
 .modal-window-form {
   display: flex;
   flex-direction: column;
-  /* margin-left: 16px;
-  margin-right: 17px; */
 }
 .modal-window-conteiner-input-lable {
   margin-bottom: 8px;
@@ -233,8 +231,6 @@
 }
 
 .modal-textarea-comment {
-  /* padding-left: 16px; */
-  /* padding-top: 8px; */
   color: rgba(46, 47, 66, 0.4);
   font-family: Roboto;
   font-size: 12px;
@@ -244,6 +240,15 @@
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* ============ tablet ========= */
+@media screen and (min-width: 768px) {
+  .modal-window-order {
+    width: 408px;
+    max-height: 584px;
+    min-height: 584px;
+    padding: 72px 25px 24px 23px;
+  }
+}
+/* ============desktop ========= */
 /* .backdrop.is-open {
   opacity: 1;
   visibility: visible;
