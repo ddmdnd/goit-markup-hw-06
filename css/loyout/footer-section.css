@@ -120,6 +120,13 @@
     margin: 0px;
   }
 }
+/* =========== tablet ============ */
+
+/* ======= desktop ============ */
+@media screen and (min-width: 1158px) {
+  .skill-section {
+    padding: 120px 0;
+  }
 /* ======= desktop ============ */
 /* .main-footer {
   padding: 100px 0;
