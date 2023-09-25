@@ -81,12 +81,14 @@
 .modal-window-form {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
-.modal-window-conteiner-input-lable {
+/* .modal-window-conteiner-input-lable {
   margin-bottom: 8px;
-}
+} */
 .modal-window-conteiner-comment-lable {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+  /* margin-bottom: 16px; */
 }
 .modal-window-label:focus-within {
   fill: #4d5ae5;
@@ -158,8 +160,9 @@
 
 .checkbox-conteiner {
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   flex-direction: column;
+  /*  margin-bottom: 24px;*/
 }
 .checkbox-privacy-policy {
   display: block;
@@ -246,6 +249,12 @@
     max-height: 584px;
     min-height: 584px;
     padding: 72px 25px 24px 23px;
+  }
+  .modal-textarea-comment {
+    width: 360px;
+    height: 120px;
+    margin-top: 4px;
+    padding: 8px 16px;
   }
 }
 /* ============desktop ========= */
