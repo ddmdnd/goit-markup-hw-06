@@ -62,6 +62,11 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-page-link-mobile:hover,
+.nav-page-link-mobile:focus {
+  color: #4d5ae5;
 }
 
 .modal-address-contacts {
@@ -124,7 +129,7 @@
 .link-iris {
   color: #4d5ae5;
 }
-/* .modal-social-link-item:hover,
+.modal-social-link-item:hover,
 .modal-social-link-item:focus {
   background-color: #31d0aa;
-} */
+}
