@@ -78,6 +78,22 @@
   margin-left: 16px;
 }
 /* ========= tablet ============ */
+@media screen and (min-width: 768px) {
+  .subscribe-conteiner {
+    margin-left: 108px;
+  }
+  .subscribe-conteiner {
+    align-items: flex-start;
+  }
+  .form-subscribe {
+    flex-direction: row;
+    gap: 24px;
+  }
+  .input-email {
+    width: 264px;
+  }
+}
+/* ========= desktop ========= */
 /* .subscribe-conteiner {
   margin-left: 80px;
 }
