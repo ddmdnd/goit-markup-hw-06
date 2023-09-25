@@ -21,7 +21,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero/image-mobile/Dark-bg@1x.jpg);
+    url(../base/mobile-Dark-bg@1x.jpg);
 }
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
@@ -32,7 +32,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/image-mobile/Dark-bg@2x.jpg);
+      url(../base/mobile-Dark-bg@2x.jpg);
   }
 }
 
@@ -94,7 +94,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/image-tablet/Dark-bg@1x.jpg);
+      url(../base/tablet-Dark-bg@1x.jpg);
 
     height: 436px;
     max-width: 768px;
@@ -118,7 +118,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/hero/image-tablet/Dark-bg@2x.jpg);
+      url(../base/tablet-Dark-bg@2x.jpg);
   }
 }
 /* ================ desktop ============== */
