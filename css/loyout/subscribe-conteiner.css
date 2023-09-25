@@ -77,6 +77,11 @@
 .subcribe-icon {
   margin-left: 16px;
 }
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background-color: var(--ocean);
+}
+
 /* ========= tablet ============ */
 
 @media screen and (min-width: 768px) {
