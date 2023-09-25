@@ -12,6 +12,38 @@
   background-color: #ffff;
   transform: translateX(100%);
 }
+
+.close-btn-modal-menu-mobile {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e7e9fc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 24px;
+  top: 24px;
+  fill: #2e2f42;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-btn-modal-menu-mobile-icon {
+}
+.lose-btn-modal-menu-mobile:hover,
+.lose-btn-modal-menu-mobile:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.close-btn-modal-menu-mobile:hover > .close-btn-modal-menu-mobile-icon,
+.close-btn-modal-menu-mobile:focus > .close-btn-modal-menu-mobile-icon {
+  fill: #ffffff;
+}
+.close-btn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-menu-nav {
   margin-top: 72px;
   margin-bottom: 168px;
