@@ -48,12 +48,13 @@
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .porfolio-section-list-payment-container {
-  width: 288px;
-  height: 280px;
+  /* width: 288px;
+  height: 280px; */
   display: flex;
   overflow: hidden;
   position: relative;
   max-width: 100%;
+  height: auto;
 }
 .porfolio-section-list-payment-image {
   width: 288;
@@ -167,8 +168,8 @@
     transform: translateY(0%);
   }
   .porfolio-section-list-payment-image {
-    width: 360px;
-    height: 300px;
+    /* width: 360px;
+    height: 300px; */
     margin-left: auto;
     margin-right: auto;
     display: flex;
