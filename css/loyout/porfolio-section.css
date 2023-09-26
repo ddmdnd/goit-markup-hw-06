@@ -29,7 +29,6 @@
   padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
-  
 }
 .portfolio-section-list-item {
   display: flex;
@@ -54,6 +53,7 @@
   display: flex;
   overflow: hidden;
   position: relative;
+  max-width: 100%;
 }
 .porfolio-section-list-payment-image {
   width: 288;
@@ -172,9 +172,8 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    max-width: 100%;
   }
 }
 
 /* ===========desktop ============= */
-
-
